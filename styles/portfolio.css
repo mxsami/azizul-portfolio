@@ -31,6 +31,7 @@ nav ul li {
 .orange-text {
     color: #FD6E0A;
 }
+
 .btn-primary {
     color: #FFFFFF;
     font-family: 'Open Sans';
@@ -46,6 +47,7 @@ nav ul li {
     border-radius: 5px;
     position: absolute;
 }
+
 /* Banner Work */
 .banner {
     margin: 185px 38px 0px 226px;
@@ -116,11 +118,12 @@ main {
     display: flex;
     justify-content: space-around;
 }
+
 /* 
 .about-info {
     
 } */
-    
+
 .info-title {
     font-size: 20px;
     font-weight: 400;
@@ -131,4 +134,41 @@ main {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+    margin-bottom: 50px;
+}
+
+/* Skills Sections */
+.skills-container {
+    display: flex;
+    text-align: left;
+    gap: 24Px;
+}
+
+.skills {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skills-title {
+    font-weight: 800;
+    font-size: 20px;
+    margin: 30px 0 20px 0;
+}
+
+.skills-description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Resume Section */
+.resume {}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #181818;
 }
