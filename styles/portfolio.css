@@ -2,36 +2,29 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-
 /* Header and Nav Style */
 nav {
     display: flex;
     justify-content: space-between;
     margin: 0px 200px;
 }
-
 nav ul {
     display: flex;
     align-items: center;
-
 }
-
 nav ul li {
     list-style: none;
     margin-left: 50px;
     font-weight: 400;
     font-size: 20px;
 }
-
 .nav-title {
     font-weight: 800;
     font-size: 45px;
 }
-
 .orange-text {
     color: #FD6E0A;
 }
-
 .btn-primary {
     color: #FFFFFF;
     font-family: 'Open Sans';
@@ -41,11 +34,8 @@ nav ul li {
     line-height: 27px;
     border: 0;
     padding: 18px 35px;
-    /* height: 64px;
-    width: 150px; */
     background: #FD6E0A;
     border-radius: 5px;
-    position: absolute;
 }
 
 /* Banner Work */
@@ -54,33 +44,29 @@ nav ul li {
     display: flex;
     align-items: center;
 }
-
 .banner-subtitle {
     font-weight: 600;
     font-size: 45px;
     margin-bottom: 5px;
 }
-
 .banner-title {
     font-weight: 700;
     font-size: 85px;
     margin-bottom: 20px;
 }
-
 .banner-discription {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
     color: #757575;
+    margin-bottom: 30px;
 }
-
 .header-top {
     background: #FFF8F3;
     background-image: url("/images/header_bg.png"), url(/images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
-
 /* main: about Me Section */
 main {
     margin: 0 auto;
@@ -91,20 +77,17 @@ main {
     background: #FFF8F3;
     border-radius: 10px;
 }
-
 .about {
     margin: 130px 0 0 0;
     padding: 131px 157px;
     text-align: center;
 }
-
 .about-title {
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 35px;
     line-height: 48px;
 }
-
 .about-discription {
     text-align: center;
     color: #757575;
@@ -112,67 +95,57 @@ main {
     font-size: 18px;
     margin-bottom: 30px;
 }
-
 /* About Information */
 .about-info-container {
     display: flex;
     justify-content: space-around;
 }
 
-/* 
-.about-info {
-    
-} */
-
+/* About informatiion Section */
 .info-title {
     font-size: 20px;
     font-weight: 400;
     color: #757575;
 }
-
 .info-description {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
     margin-bottom: 50px;
 }
-
 /* Skills Sections */
 .skills-container {
     display: flex;
     text-align: left;
     gap: 24Px;
 }
-
 .skills {
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     padding: 30px;
 }
-
 .skills-title {
     font-weight: 800;
     font-size: 20px;
     margin: 30px 0 20px 0;
 }
-
 .skills-description {
     color: #757575;
     font-weight: 400;
     font-size: 16px;
 }
-
 /* Resume Section */
-.resume {}
+.resume {
 
+}
 .section-title {
     font-weight: 700;
     font-size: 35px;
     text-align: center;
     color: #181818;
+    margin-bottom: 113px;
 }
-
 .resume-contant {
     display: flex;
     gap: 24px;
@@ -192,14 +165,12 @@ main {
     color: #474747;
     margin-bottom: 10px;
 }
-
 .resume-item .resume-sub-title {
     font-weight: 600;
     font-size: 20px;
     color: #757575;
     margin-bottom: 20px;
 }
-
 .resume-item .description {
     font-weight: 400;
     font-size: 16px;
