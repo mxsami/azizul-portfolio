@@ -219,24 +219,29 @@ main {
 .Contact-Section .section-title {
     font-weight: 700;
     font-size: 35px;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 .Contact-Section .sec-description {
     font-weight: 400;
     font-size: 16px;
     color: #474747;
+    margin-bottom: 30px;
 }
 
-.Contact-Section input[type="text"],
-[type="email"],
-textarea {
+.Contact-Section input[type="text"],[type="email"], textarea {
     margin-bottom: 24px;
     border: none;
     width: 100%;
     padding: 18px 30px;
+    font-size:16px;
 }
 
 .Contact-Section input[type="text"],
 [type="email"] {
     height: 64px;
+}
+.Contact-Section a{
+    margin-right: 25px;
 }
